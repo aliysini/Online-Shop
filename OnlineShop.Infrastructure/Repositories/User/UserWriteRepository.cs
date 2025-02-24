@@ -16,6 +16,7 @@ namespace OnlineShop.Infrastructure.Repositories.User
         {
                 _OnlineShopDbContext=onlineShopDb;
         }
+        private readonly IReadRepository<Domain.Entity.User> _readRepository;
         private readonly OnlineShopDbContext _OnlineShopDbContext;
 
         public async Task AddAsync(Domain.Entity.User entity)
@@ -30,7 +31,8 @@ namespace OnlineShop.Infrastructure.Repositories.User
         }
         public async Task DeleteAsync(Domain.Entity.User entity)
         {
-             _OnlineShopDbContext.Users.Remove(entity);
+            var user = await _readRepository.GetByIdAsync(entity.Id);
+            user.IsDeleted = true;
             await _OnlineShopDbContext.SaveChangesAsync();
         }
     }

@@ -15,3 +15,4 @@ D:\OnlineShop\OnlineShop.Persistance\obj\Debug\net8.0\OnlineShop.Persistance.gen
 D:\OnlineShop\OnlineShop.Persistance\bin\Debug\net8.0\OnlineShop.Domain.dll
 D:\OnlineShop\OnlineShop.Persistance\bin\Debug\net8.0\OnlineShop.Domain.pdb
 D:\OnlineShop\OnlineShop.Persistance\obj\Debug\net8.0\OnlineSh.A9963C3A.Up2Date
+D:\OnlineShop\OnlineShop.Persistance\obj\Debug\net8.0\OnlineShop.Persistance.sourcelink.json

@@ -86,7 +86,7 @@
   {
     "ContainingType": "EndPoint.Controllers.UserController",
     "Method": "GetAllUser",
-    "RelativePath": "api/User/getall",
+    "RelativePath": "api/User/GetAllUser",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

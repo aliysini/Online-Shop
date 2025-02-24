@@ -38,7 +38,7 @@ namespace OnlineShop.Application.Services
 
         public async Task<UserDto> CreateUserAsync(CreateUserCommand createUserCommand)
         {
-            var user = new User()
+           /* var user = new User()
             {
                 FullName = createUserCommand.UserName,
                 Email = createUserCommand.Email,
@@ -46,7 +46,8 @@ namespace OnlineShop.Application.Services
                 CreatedDate = DateTime.Now,
                 Password = createUserCommand.Password,
                 UserName = createUserCommand.UserName,
-            };
+            };*/
+            var user = _mapper.Map<User>(createUserCommand);
             await _userWriteRepository.AddAsync(user);
             return _mapper.Map<UserDto>(user);
         }
@@ -57,11 +58,12 @@ namespace OnlineShop.Application.Services
             {
                 throw new Exception("not found user!");
             }
-            user.UserName = Command.UserName;
+            /*user.UserName = Command.UserName;
             user.Email = Command.Email;
             user.FullName = Command.FullName;
             user.Address = Command.Address;
-            user.Password = Command.Password;
+            user.Password = Command.Password;*/
+            var usery = _mapper.Map<User>(Command);
             await _userWriteRepository.UpdateAsync(user);
             return _mapper.Map<UserDto>(user);
         }

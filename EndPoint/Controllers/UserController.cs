@@ -20,7 +20,7 @@ namespace EndPoint.Controllers
             _userService = userService;
         }
 
-        [HttpGet("getall")]
+        [HttpGet("GetAllUser")]
         public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUser()
         {
             var users = await _userService.GetAllUserAsync();

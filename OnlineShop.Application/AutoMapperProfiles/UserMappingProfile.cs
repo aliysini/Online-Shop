@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using OnlineShop.Application.Commands.User;
 using OnlineShop.Application.Dtos.User;
 using OnlineShop.Domain.Entity;
 
@@ -14,7 +15,8 @@ namespace OnlineShop.Application.AutoMapperProfiles
         public UserMappingProfile()
         {
             CreateMap<User,UserDto>();
-            //CreateMap<UserDto,User>();
+            CreateMap<CreateUserCommand,User>();
+            CreateMap<UpdateUserCommand,User>();
         }
     }
 }

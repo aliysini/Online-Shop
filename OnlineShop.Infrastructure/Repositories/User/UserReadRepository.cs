@@ -19,12 +19,16 @@ namespace OnlineShop.Infrastructure.Repositories.User
         private readonly OnlineShopDbContext _OnlineShopDbContext;
         public async Task<IEnumerable<Domain.Entity.User>> GetAllAsync()
         {
-            return  await _OnlineShopDbContext.Users.ToListAsync();
+            return  await _OnlineShopDbContext.Users
+                .Where(current=>current.IsDeleted==false)
+                .ToListAsync();
         }
 
         public async Task<Domain.Entity.User> GetByIdAsync(int id)
         {
-            return await _OnlineShopDbContext.Users.FirstOrDefaultAsync(current=>current.Id==id);
+            return await _OnlineShopDbContext.Users
+                .Where(current => current.Id == id)
+                .FirstOrDefaultAsync();
         }
 
     }
