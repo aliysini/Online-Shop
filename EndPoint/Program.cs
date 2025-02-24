@@ -1,6 +1,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using OnlineShop.Application.AutoMapperProfiles;
 using OnlineShop.Application.Interfaces;
 using OnlineShop.Application.Services;
 using OnlineShop.Domain.Entity;
@@ -18,6 +19,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<IWriteRepository<User>,UserWriteRepository>();
 builder.Services.AddScoped<IReadRepository<User>, UserReadRepository>();
+builder.Services.AddAutoMapper(typeof(UserMappingProfile));
 /*builder.Services.AddDbContext<CommandDbContext>(options =>
     options.UseSqlServer("YourConnectionString"));*/
 

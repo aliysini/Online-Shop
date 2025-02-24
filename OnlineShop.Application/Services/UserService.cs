@@ -65,7 +65,7 @@ namespace OnlineShop.Application.Services
             await _userWriteRepository.UpdateAsync(user);
             return _mapper.Map<UserDto>(user);
         }
-        public async Task DeleteUserAsynnc(DeleteUserCommand deleteUserCommand)
+        public async Task<bool> DeleteUserAsync(DeleteUserCommand deleteUserCommand)
         {
             var user = await _userReadRepository.GetByIdAsync(deleteUserCommand.Id);
             if (user == null)
@@ -73,6 +73,7 @@ namespace OnlineShop.Application.Services
                 throw new Exception("not found user!");
             }
             await _userWriteRepository.DeleteAsync(user);
+            return true;
 
         }
 

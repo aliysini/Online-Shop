@@ -13,3 +13,4 @@ D:\OnlineShop\OnlineShop.Application\bin\Debug\net8.0\OnlineShop.Domain.dll
 D:\OnlineShop\OnlineShop.Application\bin\Debug\net8.0\OnlineShop.Domain.pdb
 D:\OnlineShop\OnlineShop.Application\obj\Debug\net8.0\OnlineShop.Application.csproj.AssemblyReference.cache
 D:\OnlineShop\OnlineShop.Application\obj\Debug\net8.0\OnlineSh.74C1F928.Up2Date
+D:\OnlineShop\OnlineShop.Application\obj\Debug\net8.0\OnlineShop.Application.sourcelink.json

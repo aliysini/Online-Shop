@@ -20,7 +20,7 @@ namespace EndPoint.Controllers
             _userService = userService;
         }
 
-        [HttpGet]
+        [HttpGet("getall")]
         public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUser()
         {
             var users = await _userService.GetAllUserAsync();
@@ -48,12 +48,11 @@ namespace EndPoint.Controllers
             return NoContent();
         }
 
-        /*[HttpDelete]
+        [HttpDelete]
         public async Task<IActionResult> DeleteUser(DeleteUserCommand deleteUserCommand)
         {
-            await _userService.
+            await _userService.DeleteUserAsync(deleteUserCommand);
+            return NoContent();
         }
-       */
-        
     }
 }
