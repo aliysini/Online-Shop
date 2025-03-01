@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using OnlineShop.Application.Commands.User;
-using OnlineShop.Application.Dtos.User;
+using OnlineShop.Application.Dtos;
+using OnlineShop.Application.Features.User.Commands;
 using OnlineShop.Domain.Entity;
 
 namespace OnlineShop.Application.AutoMapperProfiles
@@ -15,8 +15,9 @@ namespace OnlineShop.Application.AutoMapperProfiles
         public UserMappingProfile()
         {
             CreateMap<User,UserDto>();
-            CreateMap<CreateUserCommand,User>();
+            CreateMap<CreateUserCommand, User>().ForMember(dest => dest.CreatedDate, opt => opt.MapFrom(src => DateTime.UtcNow));
             CreateMap<UpdateUserCommand,User>();
+            
         }
     }
 }

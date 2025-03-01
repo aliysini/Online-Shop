@@ -3,7 +3,6 @@ D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.GeneratedMSBuildEditorConfig.ed
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.AssemblyInfoInputs.cache
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.AssemblyInfo.cs
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.csproj.CoreCompileInputs.cache
-D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.MvcApplicationPartsAssemblyInfo.cs
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.MvcApplicationPartsAssemblyInfo.cache
 D:\OnlineShop\EndPoint\bin\Debug\net8.0\appsettings.Development.json
 D:\OnlineShop\EndPoint\bin\Debug\net8.0\appsettings.json
@@ -151,3 +150,12 @@ D:\OnlineShop\EndPoint\bin\Debug\net8.0\OnlineShop.Infrastructure.dll
 D:\OnlineShop\EndPoint\bin\Debug\net8.0\OnlineShop.Application.pdb
 D:\OnlineShop\EndPoint\bin\Debug\net8.0\OnlineShop.Infrastructure.pdb
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.sourcelink.json
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\FluentValidation.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\MediatR.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.MvcApplicationPartsAssemblyInfo.cs
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\OnlineShop.Common.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\OnlineShop.Common.pdb

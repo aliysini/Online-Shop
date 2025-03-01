@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "OnlineShop.Domain/1.0.0": {
+        "dependencies": {
+          "OnlineShop.Common": "1.0.0"
+        },
         "runtime": {
           "OnlineShop.Domain.dll": {}
+        }
+      },
+      "OnlineShop.Common/1.0.0": {
+        "runtime": {
+          "OnlineShop.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "OnlineShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineShop.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

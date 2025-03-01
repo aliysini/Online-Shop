@@ -1,13 +1,15 @@
+using FluentValidation.AspNetCore;
+using FluentValidation;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using OnlineShop.Application.AutoMapperProfiles;
-using OnlineShop.Application.Interfaces;
-using OnlineShop.Application.Services;
+using OnlineShop.Application.Features.User.Commands;
 using OnlineShop.Domain.Entity;
-using OnlineShop.Infrastructure.Repositories.User;
 using OnlineShop.Persistance.Context.OnlineShopDbContext;
-
+using MediatR;
+using System.Reflection;
+using OnlineShop.Persistance.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,13 +17,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateUserCommand)));
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(UpdateUserCommand)));
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<UserService>();
-builder.Services.AddScoped<IWriteRepository<User>,UserWriteRepository>();
-builder.Services.AddScoped<IReadRepository<User>, UserReadRepository>();
+builder.Services.AddScoped<OnlineShop.Domain.Contracts.IUserRepository, UserRopository>();
 builder.Services.AddAutoMapper(typeof(UserMappingProfile));
-/*builder.Services.AddDbContext<CommandDbContext>(options =>
-    options.UseSqlServer("YourConnectionString"));*/
+builder.Services.AddFluentValidationAutoValidation();
 
 builder.Services.AddDbContext<OnlineShopDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer") ?? throw new InvalidOperationException("Connection string 'Default' not found.")));

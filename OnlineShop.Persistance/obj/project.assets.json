@@ -1496,9 +1496,22 @@
           }
         }
       },
+      "OnlineShop.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OnlineShop.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineShop.Common.dll": {}
+        }
+      },
       "OnlineShop.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OnlineShop.Common": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/OnlineShop.Domain.dll": {}
         },
@@ -4040,6 +4053,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OnlineShop.Common/1.0.0": {
+      "type": "project",
+      "path": "../OnlineShop.Common/OnlineShop.Common.csproj",
+      "msbuildProject": "../OnlineShop.Common/OnlineShop.Common.csproj"
     },
     "OnlineShop.Domain/1.0.0": {
       "type": "project",

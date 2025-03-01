@@ -9,3 +9,4 @@ D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.dll
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\refint\OnlineShop.Common.dll
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.pdb
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\ref\OnlineShop.Common.dll
+D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.sourcelink.json

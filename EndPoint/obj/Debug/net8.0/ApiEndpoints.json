@@ -1,99 +1,21 @@
 [
   {
     "ContainingType": "EndPoint.Controllers.UserController",
-    "Method": "GetUser",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "getUserById",
-        "Type": "OnlineShop.Application.Queries.User.GetUserById",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "OnlineShop.Application.Dtos.User.UserDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "EndPoint.Controllers.UserController",
-    "Method": "CrateUser",
-    "RelativePath": "api/User",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/CreateUser",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "OnlineShop.Application.Commands.User.CreateUserCommand",
+        "Type": "OnlineShop.Application.Features.User.Commands.CreateUserCommand",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "OnlineShop.Application.Dtos.User.UserDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "EndPoint.Controllers.UserController",
-    "Method": "UpdateUser",
-    "RelativePath": "api/User",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "updateUserCommand",
-        "Type": "OnlineShop.Application.Commands.User.UpdateUserCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EndPoint.Controllers.UserController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/User",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "deleteUserCommand",
-        "Type": "OnlineShop.Application.Commands.User.DeleteUserCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EndPoint.Controllers.UserController",
-    "Method": "GetAllUser",
-    "RelativePath": "api/User/GetAllUser",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[OnlineShop.Application.Dtos.User.UserDto, OnlineShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "OnlineShop.Application.Dtos.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

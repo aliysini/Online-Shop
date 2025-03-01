@@ -18,3 +18,5 @@ D:\OnlineShop\OnlineShop.Infrastructure\bin\Debug\net8.0\OnlineShop.Persistance.
 D:\OnlineShop\OnlineShop.Infrastructure\bin\Debug\net8.0\OnlineShop.Domain.pdb
 D:\OnlineShop\OnlineShop.Infrastructure\bin\Debug\net8.0\OnlineShop.Persistance.pdb
 D:\OnlineShop\OnlineShop.Infrastructure\obj\Debug\net8.0\OnlineShop.Infrastructure.sourcelink.json
+D:\OnlineShop\OnlineShop.Infrastructure\bin\Debug\net8.0\OnlineShop.Common.dll
+D:\OnlineShop\OnlineShop.Infrastructure\bin\Debug\net8.0\OnlineShop.Common.pdb
