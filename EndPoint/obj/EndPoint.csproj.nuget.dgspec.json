@@ -153,6 +153,9 @@
               },
               "D:\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
                 "projectPath": "D:\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj"
+              },
+              "D:\\OnlineShop\\OnlineShop.Persistance\\OnlineShop.Persistance.csproj": {
+                "projectPath": "D:\\OnlineShop\\OnlineShop.Persistance\\OnlineShop.Persistance.csproj"
               }
             }
           }

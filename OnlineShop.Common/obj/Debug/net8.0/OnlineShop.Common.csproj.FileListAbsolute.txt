@@ -5,8 +5,8 @@ D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.GeneratedMSBu
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.AssemblyInfoInputs.cache
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.AssemblyInfo.cs
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.csproj.CoreCompileInputs.cache
+D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.sourcelink.json
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.dll
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\refint\OnlineShop.Common.dll
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.pdb
 D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\ref\OnlineShop.Common.dll
-D:\OnlineShop\OnlineShop.Common\obj\Debug\net8.0\OnlineShop.Common.sourcelink.json

@@ -53,7 +53,7 @@ namespace OnlineShop.Persistance.Repositories
 
         public async Task DeleteAsync(User entity)
         {
-             _OnlineShopDbContext.Users.Remove(entity);
+            entity.IsDeleted = true;
             await SaveChangeAsync();
         }
 

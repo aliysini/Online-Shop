@@ -13,8 +13,7 @@ namespace OnlineShop.Application.Features.User.Commands
 {
     public class UpdateUserCommand : IRequest<Unit>
     {
-        public int Id {  get;private set; }
-        public string UserName { get;private set; }
+        public int Id { get; set; }
         public string Password { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
@@ -42,8 +41,9 @@ namespace OnlineShop.Application.Features.User.Commands
                 {
                     throw new Exception("کاربر مورد نظر پیدا نشد.");
                 }
-                var user = _mapper.Map<Domain.Entity.User>(updateUserCommand);
-                _userRepository.UpdateAsync(user);
+                updateUserCommand.Id = userFromDataBase.Id;
+                var user = _mapper.Map(updateUserCommand,userFromDataBase);
+                await _userRepository.UpdateAsync(userFromDataBase);
                 return Unit.Value;
             }
         }
@@ -53,8 +53,6 @@ namespace OnlineShop.Application.Features.User.Commands
             {
                 RuleFor(current => current.FullName).NotEmpty().WithMessage("وارد کردن نام و نام خانوادگی اجباری است").
                     Length(6, 50).WithMessage("نام و نام خانوادگی باید بین 6 تا 50 حرف باشد");
-                RuleFor(current => current.UserName).NotEmpty().WithMessage("وارد کردن نام کاربری اجباری است").
-                    Length(6, 30).WithMessage("نام و نام خانوادگی باید بین 6 تا 30 حرف باشد");
                 RuleFor(user => user.Password)
                     .NotEmpty().WithMessage("رمز عبور نمی‌تواند خالی باشد.")
                     .MinimumLength(6).WithMessage("رمز عبور باید حداقل ۶ کاراکتر باشد.")

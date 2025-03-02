@@ -1721,7 +1721,8 @@
           "MediatR": "11.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "OnlineShop.Common": "1.0.0",
-          "OnlineShop.Domain": "1.0.0"
+          "OnlineShop.Domain": "1.0.0",
+          "OnlineShop.Persistance": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OnlineShop.Application.dll": {}

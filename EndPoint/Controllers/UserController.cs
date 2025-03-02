@@ -14,32 +14,27 @@ namespace EndPoint.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-
-        //"userName": "aliybuasini",
-        //"password": "niswis@yus",
-        //"fullName": "mahdi-maani",
-        //"email": "mahdi-maanigmail.com",
-        //"address": "hamedan"
-
         private readonly IMediator _mediator;
         public UserController(IMediator mediator)
         {
             _mediator = mediator;
         }
 
-        //[HttpGet("GetAllUser")]
-        //public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUser()
-        //{
-        //    var users = await _userService.GetAllUserAsync();
-        //    return Ok(users);
-        //}
+        [HttpGet("GetAllUser")]
+        public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUser()
+        {
+            var getAllUser = new GetAllUser();
+            var users = await _mediator.Send(getAllUser);
+            return Ok(users);
+        }
 
-        //[HttpGet]
-        //public async Task<ActionResult<UserDto>> GetUser(GetUserById getUserById)
-        //{
-        //    var user = await _userService.GetUserAsync(getUserById);
-        //    return Ok(user);
-        //}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<UserDto>> GetUser(int id)
+        {
+            var getUserByid = new GetUserById { Id = id };
+            var user = await _mediator.Send(getUserByid);
+            return Ok(user);
+        }
 
         [HttpPost("CreateUser")]
         public async Task<ActionResult<UserDto>> CreateUser(CreateUserCommand command)
@@ -52,15 +47,15 @@ namespace EndPoint.Controllers
         [HttpPut]
         public async Task<IActionResult> UpdateUser(UpdateUserCommand updateUserCommand)
         {
-            var userDto = await _mediator.Send (updateUserCommand);
+            await _mediator.Send (updateUserCommand);
             return NoContent();
         }
 
-        //[HttpDelete]
-        //public async Task<IActionResult> DeleteUser(DeleteUserCommand deleteUserCommand)
-        //{
-        //    await _userService.DeleteUserAsync(deleteUserCommand);
-        //    return NoContent();
-        //}
+        [HttpDelete]
+        public async Task<IActionResult> DeleteUser(DeleteUserCommand deleteUserCommand)
+        {
+            await _mediator.Send(deleteUserCommand);
+            return NoContent();
+        }
     }
 }
