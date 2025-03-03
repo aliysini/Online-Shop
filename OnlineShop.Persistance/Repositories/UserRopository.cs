@@ -36,7 +36,9 @@ namespace OnlineShop.Persistance.Repositories
         public async Task<User> GetByUserNameAsync(string name)
         {
             return await _OnlineShopDbContext.Users
-                .Where(current => current.UserName == name).FirstOrDefaultAsync();
+                .Where(current => current.UserName == name)
+                .Where(current => current.IsDeleted == false)
+                .FirstOrDefaultAsync();
         }
 
         public async Task AddAsync(User entity)

@@ -10,6 +10,5 @@ namespace OnlineShop.Common.Contract
     {
         public Task<IEnumerable<T>> GetAllAsync();
         public Task<T> GetByIdAsync(int id);
-        public Task<T> GetByUserNameAsync(string name);
     }
 }
