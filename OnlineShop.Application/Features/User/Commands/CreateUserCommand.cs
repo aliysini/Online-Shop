@@ -71,5 +71,4 @@ namespace OnlineShop.Application.Features.User.Commands
             }
         }
     }
-
 }

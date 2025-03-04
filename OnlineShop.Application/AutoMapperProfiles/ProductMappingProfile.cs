@@ -15,7 +15,9 @@ namespace OnlineShop.Application.AutoMapperProfiles
         public ProductMappingProfile()
         {
             CreateMap<CreateProductCommand, Product>().ForMember(dest => dest.CreatedDate, opt => opt.MapFrom(src => DateTime.UtcNow));
-            CreateMap<Product, ProductDto>();
+            CreateMap<UpdateProductCommand, Product>();
+            CreateMap<Product, ProductDto>()
+                .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
         }
 
     }

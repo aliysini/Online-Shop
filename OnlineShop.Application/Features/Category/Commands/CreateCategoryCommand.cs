@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineShop.Application.Features.Category
+namespace OnlineShop.Application.Features.Category.Commands
 {
     public class CreateCategoryCommand : IRequest<CategoryDto>
     {
@@ -28,9 +28,9 @@ namespace OnlineShop.Application.Features.Category
             public async Task<CategoryDto> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
             {
                 var validationResult = new CreateCategoryCommandValidator().Validate(request);
-                if (!validationResult.IsValid) 
+                if (!validationResult.IsValid)
                 {
-                    var messages = validationResult.Errors.Select(e=>e.ErrorMessage).ToList();
+                    var messages = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
                     throw new Common.Exeptions.ValidationExeption(messages);
                 }
                 var categoryFromDto = await _categoryRepository.GetByCategoryNameAsync(request.Name);

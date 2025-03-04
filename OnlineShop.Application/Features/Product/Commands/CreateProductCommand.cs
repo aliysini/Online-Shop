@@ -53,7 +53,7 @@ namespace OnlineShop.Application.Features.Product.Commands
                 var product = _mapper.Map<Domain.Entity.Product>(command);
                 await _productRepository.AddAsync(product);
                 var productDto = _mapper.Map<ProductDto>(product);
-                productDto.Category = command.CategoryName;
+                productDto.CategoryName = command.CategoryName;
                 return productDto;
 
             }

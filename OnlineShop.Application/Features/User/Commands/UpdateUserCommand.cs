@@ -64,7 +64,6 @@ namespace OnlineShop.Application.Features.User.Commands
                     .EmailAddress().WithMessage("فرمت ایمیل نامعتبر است.");
                 RuleFor(user => user.Address)
                     .MaximumLength(100).WithMessage("آدرس نمی‌تواند بیشتر از ۱۰۰ کاراکتر باشد.");
-
             }
         }
     }

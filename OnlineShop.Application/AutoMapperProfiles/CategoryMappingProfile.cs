@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using OnlineShop.Application.Dtos;
-using OnlineShop.Application.Features.Category;
+using OnlineShop.Application.Features.Category.Commands;
 using OnlineShop.Domain.Entity;
 using System;
 using System.Collections.Generic;
@@ -15,8 +15,8 @@ namespace OnlineShop.Application.AutoMapperProfiles
         public CategoryMappingProfile()
         {
             CreateMap<CreateCategoryCommand, Category>();
+            CreateMap<UpdateCategoryCommand, Category>();
             CreateMap<Category, CategoryDto>();
-
         }
     }
 }
