@@ -55,7 +55,6 @@ namespace OnlineShop.Persistance.Repositories
                 .Include(current=> current.Category)
                 .FirstOrDefaultAsync();
         }
-
         public async Task SaveChangeAsync()
         {
             await _onlineShopDbContext.SaveChangesAsync();
@@ -65,6 +64,18 @@ namespace OnlineShop.Persistance.Repositories
         {
             _onlineShopDbContext.Products.Update(entity);
             await SaveChangeAsync();
+        }
+        public async Task UpdateProductsAsync(IEnumerable<Product> products)
+        {
+            _onlineShopDbContext.Products.UpdateRange(products);
+            await SaveChangeAsync();
+        }
+
+        public async Task<IEnumerable<Product>> GetByCategoryIdAsync(int id)
+        {
+            var products = await _onlineShopDbContext.Products.Where(current => current.CategoryId == id).
+                ToListAsync();
+            return products;
         }
     }
 }

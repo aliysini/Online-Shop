@@ -142,6 +142,7 @@ D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.GeneratedMSBuildEditorConfig.ed
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.AssemblyInfoInputs.cache
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.AssemblyInfo.cs
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.csproj.CoreCompileInputs.cache
+D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.MvcApplicationPartsAssemblyInfo.cs
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.MvcApplicationPartsAssemblyInfo.cache
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.sourcelink.json
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\staticwebassets.build.json
@@ -158,4 +159,5 @@ D:\OnlineShop\EndPoint\obj\Debug\net8.0\refint\EndPoint.dll
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.pdb
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.genruntimeconfig.cache
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\ref\EndPoint.dll
-D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.MvcApplicationPartsAssemblyInfo.cs
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\StackExchange.Redis.dll

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static OnlineShop.Application.Features.Product.Commands.UpdateProductCommand;
 
 namespace OnlineShop.Application.Features.Product.Commands
 {
@@ -21,6 +22,12 @@ namespace OnlineShop.Application.Features.Product.Commands
             private readonly IProductRepository _productRepository;
             public async Task<Unit> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
             {
+                var validationResult = await new DeleteProductCommandValidator().ValidateAsync(request);
+                if (!validationResult.IsValid)
+                {
+                    var messages = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
+                    throw new Common.Exeptions.ValidationExeption(messages);
+                }
                 var productFromDB = await _productRepository.GetByProductNameAsync(request.Name);
                 if (productFromDB == null)
                 {

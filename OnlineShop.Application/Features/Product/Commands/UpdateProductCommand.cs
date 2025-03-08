@@ -47,7 +47,7 @@ namespace OnlineShop.Application.Features.Product.Commands
                 }
                 if (request.CategoryName == null || request.CategoryName == string.Empty)
                 {
-                    var category = await _categoryRepository.GetByIdAsync(productFromDB.CategoryId);
+                    var category = await _categoryRepository.GetByIdAsync(productFromDB.CategoryId.GetValueOrDefault());
                     request.CategoryName = category.Name;
                 }
                 var categoryFromDb = await _categoryRepository.GetByCategoryNameAsync(request.CategoryName);

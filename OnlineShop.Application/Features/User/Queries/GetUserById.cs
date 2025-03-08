@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using MediatR;
 using OnlineShop.Application.Dtos;
 using OnlineShop.Application.Features.User.Commands;
@@ -8,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using static OnlineShop.Application.Features.User.Commands.DeleteUserCommand;
 
 namespace OnlineShop.Application.Features.User.Queries
 {
@@ -26,6 +29,12 @@ namespace OnlineShop.Application.Features.User.Queries
             }
             public async Task<UserDto> Handle(GetUserById getUserById,CancellationToken cancellationToken)
             {
+                var validationUser = await new GetUserByIdValidator().ValidateAsync(getUserById);
+                if (!validationUser.IsValid)
+                {
+                    var errorMassage = validationUser.Errors.Select(e => e.ErrorMessage).ToList();
+                    throw new Common.Exeptions.ValidationExeption(errorMassage);
+                }
                 var userFromDB = await _userRepository.GetByIdAsync(getUserById.Id);
                 if (userFromDB == null)
                 {
@@ -33,6 +42,13 @@ namespace OnlineShop.Application.Features.User.Queries
                 }
                 var userDto = _mapper.Map<UserDto>(userFromDB);
                 return userDto;
+            }
+        }
+        public class GetUserByIdValidator:AbstractValidator<GetUserById>
+        {
+            public GetUserByIdValidator()
+            {
+                RuleFor(current => current.Id).NotEmpty().WithMessage("وارد کردن شناسه کاربری اجباری است");
             }
         }
     }

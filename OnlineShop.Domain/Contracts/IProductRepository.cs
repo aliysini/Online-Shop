@@ -11,5 +11,7 @@ namespace OnlineShop.Domain.Contracts
     public interface IProductRepository :IReadRepository<Product>,IWriteRepository<Product>
     {
         public Task<Product> GetByProductNameAsync(string name);
+        public  Task UpdateProductsAsync(IEnumerable<Product> products);
+        public Task<IEnumerable<Product>> GetByCategoryIdAsync(int id);
     }
 }

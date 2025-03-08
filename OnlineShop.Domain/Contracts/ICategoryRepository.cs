@@ -11,5 +11,7 @@ namespace OnlineShop.Domain.Contracts
     public interface ICategoryRepository :IWriteRepository<Category>,IReadRepository<Category>
     {
         public Task<Category> GetByCategoryNameAsync(string name);
+        public Task<Category> GetProdectsAsync(Category entity);
+        public Task IsDeleteAsync(Category entity);
     }
 }
