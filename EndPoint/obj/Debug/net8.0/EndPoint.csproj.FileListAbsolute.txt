@@ -161,3 +161,8 @@ D:\OnlineShop\EndPoint\obj\Debug\net8.0\EndPoint.genruntimeconfig.cache
 D:\OnlineShop\EndPoint\obj\Debug\net8.0\ref\EndPoint.dll
 D:\OnlineShop\EndPoint\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 D:\OnlineShop\EndPoint\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\libman.json
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\OnlineShop\EndPoint\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

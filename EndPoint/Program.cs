@@ -18,6 +18,9 @@ using OnlineShop.Application.Features.Product.Queries;
 using OnlineShop.Application.Features.Category.Commands;
 using OnlineShop.Application.Features.Category.Queries;
 using StackExchange.Redis;
+using Microsoft.Extensions.Configuration;
+using OnlineShop.Application.Features.Baskets.Queries;
+using OnlineShop.Application.Features.Baskets.Commands;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -40,6 +43,10 @@ builder.Services.AddMediatR(Assembly.GetAssembly(typeof(UpdateCategoryCommand)))
 builder.Services.AddMediatR(Assembly.GetAssembly(typeof(DeleteCategoryCommand)));
 builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetCategoryQuery)));
 builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllCategoryQuerirs)));
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetBasketQuery)));
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateBasketCommand)));
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(DeleteBasketCommand)));
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllCategoryQuerirs)));
 
 #endregion /MediatR
 
@@ -47,19 +54,26 @@ builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllCategoryQuerirs)))
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IUserRepository, UserRopository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 #endregion /Repository
 
+var redisConnection = builder.Configuration.GetValue<string>("Redis:RedisConnection");
+
+// اتصال به Redis با استفاده از IDistributedCache
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = redisConnection;
+    options.InstanceName = "OnlineShop_";
+});
 #region Mapper
 builder.Services.AddAutoMapper(typeof(OnlineShop.Application.AutoMapperProfiles.UserMappingProfile));
 builder.Services.AddAutoMapper(typeof(OnlineShop.Application.AutoMapperProfiles.ProductMappingProfile));
-builder.Services.AddAutoMapper(typeof(OnlineShop.Application.AutoMapperProfiles.CategoryMappingProfile));
+builder.Services.AddAutoMapper(typeof(OnlineShop.Application.AutoMapperProfiles.CategoryMappingProfile)); ;
+builder.Services.AddAutoMapper(typeof(OnlineShop.Application.AutoMapperProfiles.ShoppingCartProfile)); ;
 #endregion /Mapper
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-    ConnectionMultiplexer.Connect(builder.Configuration["Redis:ConnectionString"]));
 builder.Services.AddDbContext<OnlineShopDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer") ?? throw new InvalidOperationException("Connection string 'Default' not found.")));
 
