@@ -55,7 +55,7 @@ namespace OnlineShop.Application.Features.User.Commands
                 RuleFor(current => current.FullName).NotEmpty().WithMessage("وارد کردن نام و نام خانوادگی اجباری است").
                     Length(6, 50).WithMessage("نام و نام خانوادگی باید بین 6 تا 50 حرف باشد");
                 RuleFor(current => current.UserName).NotEmpty().WithMessage("وارد کردن نام کاربری اجباری است").
-                    Length(6, 30).WithMessage("نام و نام خانوادگی باید بین 6 تا 30 حرف باشد");
+                    Length(6, 30).WithMessage("نام کاربری باید بین 6 تا 30 حرف باشد");
                 RuleFor(user => user.Password)
                     .NotEmpty().WithMessage("رمز عبور نمی‌تواند خالی باشد.")
                     .MinimumLength(6).WithMessage("رمز عبور باید حداقل ۶ کاراکتر باشد.")

@@ -14,7 +14,6 @@ namespace OnlineShop.Domain.Entity
         public string Description { get; set; }
         public int Stock { get; set; }
         //public string CategoryName {get; set; }
-
         [ForeignKey("CategoryId")]
         public Category? Category { get; set; }
         public int? CategoryId { get; set; }

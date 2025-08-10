@@ -1,12 +1,6 @@
 ﻿using FluentValidation;
 using MediatR;
 using OnlineShop.Domain.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static OnlineShop.Application.Features.Product.Commands.UpdateProductCommand;
 
 namespace OnlineShop.Application.Features.Product.Commands
 {

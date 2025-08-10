@@ -25,28 +25,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateUserCommand))); builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 #region MediatR
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateUserCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(DeleteUserCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllUser)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetUserById)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(UpdateUserCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateProductCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateCategoryCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(UpdateProductCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(DeleteProductCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetProductByNameQuery)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllProductQuery)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(UpdateCategoryCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(DeleteCategoryCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetCategoryQuery)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllCategoryQuerirs)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetBasketQuery)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(CreateBasketCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(DeleteBasketCommand)));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(GetAllCategoryQuerirs)));
 
 #endregion /MediatR
 
