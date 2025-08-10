@@ -1,0 +1,671 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\OnlineShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\automapperprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\automapperprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\user\\commands\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\user\\commands\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\user\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\user\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\category\\commands\\deletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\category\\commands\\deletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\category\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\category\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|d:\\github\\onlineshop\\onlineshop.persistance\\repositories\\userropository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|solutionrelative:onlineshop.persistance\\repositories\\userropository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|d:\\github\\onlineshop\\onlineshop.persistance\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|solutionrelative:onlineshop.persistance\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|d:\\github\\onlineshop\\onlineshop.persistance\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|solutionrelative:onlineshop.persistance\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\entity\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\entity\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\entity\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\entity\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D713A8-D19C-4788-BD2A-EB05F23E0C27}|OnlineShop.Common\\OnlineShop.Common.csproj|d:\\github\\onlineshop\\onlineshop.common\\onlineshop.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1D713A8-D19C-4788-BD2A-EB05F23E0C27}|OnlineShop.Common\\OnlineShop.Common.csproj|solutionrelative:onlineshop.common\\onlineshop.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D713A8-D19C-4788-BD2A-EB05F23E0C27}|OnlineShop.Common\\OnlineShop.Common.csproj|d:\\github\\onlineshop\\onlineshop.common\\exeptions\\duplicateuserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D713A8-D19C-4788-BD2A-EB05F23E0C27}|OnlineShop.Common\\OnlineShop.Common.csproj|solutionrelative:onlineshop.common\\exeptions\\duplicateuserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\automapperprofiles\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\automapperprofiles\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\automapperprofiles\\shoppingcartprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\automapperprofiles\\shoppingcartprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\baskets\\commands\\deletebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\baskets\\commands\\deletebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\baskets\\queries\\getbasketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\baskets\\queries\\getbasketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\baskets\\commands\\createbasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\baskets\\commands\\createbasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|d:\\github\\onlineshop\\onlineshop.persistance\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E9BF0D-7EAF-494D-BA86-8190C91ADE77}|OnlineShop.Persistance\\OnlineShop.Persistance.csproj|solutionrelative:onlineshop.persistance\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\OnlineShop\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\baskets\\commands\\updatebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\baskets\\commands\\updatebasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\github\\onlineshop\\onlineshop.domain\\contracts\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38785BE0-E7AD-4B77-9734-6E2BADEBA3B9}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\contracts\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\product\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\product\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\features\\product\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\features\\product\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\dtos\\shoppingcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\dtos\\shoppingcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|d:\\github\\onlineshop\\endpoint\\endpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5FB7FD7-4CA3-4A85-A9A4-8B0786A9ADC3}|EndPoint\\EndPoint.csproj|solutionrelative:endpoint\\endpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|d:\\github\\onlineshop\\onlineshop.application\\onlineshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12354589-5BE8-4BA8-94F6-E208B337EB9F}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\onlineshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "EndPoint\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "EndPoint\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T12:09:25.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRopository.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\UserRopository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistance\\Repositories\\UserRopository.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\UserRopository.cs",
+              "RelativeToolTip": "OnlineShop.Persistance\\Repositories\\UserRopository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:18:30.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Category\\Commands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Category\\Commands\\CreateCategoryCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Category\\Commands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Category\\Commands\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:50:16.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteCategoryCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Category\\Commands\\DeleteCategoryCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Category\\Commands\\DeleteCategoryCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Category\\Commands\\DeleteCategoryCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Category\\Commands\\DeleteCategoryCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:55:53.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\User\\Commands\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\User\\Commands\\CreateUserCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\User\\Commands\\CreateUserCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\User\\Commands\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:50:36.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\User\\Commands\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\User\\Commands\\DeleteUserCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\User\\Commands\\DeleteUserCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\User\\Commands\\DeleteUserCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:50:35.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductMappingProfile.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\AutoMapperProfiles\\ProductMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\AutoMapperProfiles\\ProductMappingProfile.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\AutoMapperProfiles\\ProductMappingProfile.cs",
+              "RelativeToolTip": "OnlineShop.Application\\AutoMapperProfiles\\ProductMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:54:56.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Entity\\BaseEntity.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\BaseEntity.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Entity\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:10:34.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Entity\\ShoppingCartItem.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\ShoppingCartItem.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Entity\\ShoppingCartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:13:00.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Entity\\ShoppingCart.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\ShoppingCart.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Entity\\ShoppingCart.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:10:39.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Entity\\Category.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\Category.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Entity\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:10:03.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Entity\\Product.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\Product.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Entity\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:10:09.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DuplicateUserException.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Common\\Exeptions\\DuplicateUserException.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Common\\Exeptions\\DuplicateUserException.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Common\\Exeptions\\DuplicateUserException.cs",
+              "RelativeToolTip": "OnlineShop.Common\\Exeptions\\DuplicateUserException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:54:29.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistance\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "OnlineShop.Persistance\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:15:29.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistance\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "OnlineShop.Persistance\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:50:17.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\AutoMapperProfiles\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\AutoMapperProfiles\\UserMappingProfile.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\AutoMapperProfiles\\UserMappingProfile.cs",
+              "RelativeToolTip": "OnlineShop.Application\\AutoMapperProfiles\\UserMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:54:38.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EndPoint\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EndPoint\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:55:53.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "EndPoint\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "EndPoint\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:16:08.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShoppingCartProfile.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\AutoMapperProfiles\\ShoppingCartProfile.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\AutoMapperProfiles\\ShoppingCartProfile.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\AutoMapperProfiles\\ShoppingCartProfile.cs",
+              "RelativeToolTip": "OnlineShop.Application\\AutoMapperProfiles\\ShoppingCartProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:54:55.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OnlineShop.Common.csproj",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Common\\OnlineShop.Common.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Common\\OnlineShop.Common.csproj",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Common\\OnlineShop.Common.csproj",
+              "RelativeToolTip": "OnlineShop.Common\\OnlineShop.Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T11:23:24.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Entity\\User.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Entity\\User.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:12:50.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Contracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Contracts\\IProductRepository.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Contracts\\IProductRepository.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Contracts\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:29:06.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Dtos\\CategoryDto.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\CategoryDto.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Dtos\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:54:14.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\appsettings.json",
+              "RelativeDocumentMoniker": "EndPoint\\appsettings.json",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\appsettings.json",
+              "RelativeToolTip": "EndPoint\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T07:17:47.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteBasketCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Commands\\DeleteBasketCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Baskets\\Commands\\DeleteBasketCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Commands\\DeleteBasketCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Baskets\\Commands\\DeleteBasketCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAlwCAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:08:17.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateBasketCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Commands\\CreateBasketCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Baskets\\Commands\\CreateBasketCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Commands\\CreateBasketCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Baskets\\Commands\\CreateBasketCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:23:47.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetBasketQuery.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Queries\\GetBasketQuery.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Baskets\\Queries\\GetBasketQuery.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Queries\\GetBasketQuery.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Baskets\\Queries\\GetBasketQuery.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wDQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:06:40.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\Program.cs",
+              "RelativeDocumentMoniker": "EndPoint\\Program.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\Program.cs",
+              "RelativeToolTip": "EndPoint\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:05:40.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistance\\Repositories\\BasketRepository.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Persistance\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "OnlineShop.Persistance\\Repositories\\BasketRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:29:57.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "D:\\Github\\OnlineShop\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T19:38:16.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\Dockerfile",
+              "RelativeDocumentMoniker": "EndPoint\\Dockerfile",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\Dockerfile",
+              "RelativeToolTip": "EndPoint\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-15T19:35:35.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateBasketCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Commands\\UpdateBasketCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Baskets\\Commands\\UpdateBasketCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Baskets\\Commands\\UpdateBasketCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Baskets\\Commands\\UpdateBasketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:24:42.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Product\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Product\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Product\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Product\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:24:07.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Product\\Commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Features\\Product\\Commands\\DeleteProductCommand.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Features\\Product\\Commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Features\\Product\\Commands\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:16:55.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Contracts\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Contracts\\IBasketRepository.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Domain\\Contracts\\IBasketRepository.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Contracts\\IBasketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T07:15:14.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Dtos\\CartItemDto.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\CartItemDto.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Dtos\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:29:34.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EndPoint.csproj",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\EndPoint\\EndPoint.csproj",
+              "RelativeDocumentMoniker": "EndPoint\\EndPoint.csproj",
+              "ToolTip": "D:\\Github\\OnlineShop\\EndPoint\\EndPoint.csproj",
+              "RelativeToolTip": "EndPoint\\EndPoint.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T11:05:36.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Dtos\\UserDto.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:33:01.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ShoppingCartDto.cs",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\ShoppingCartDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Dtos\\ShoppingCartDto.cs",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\Dtos\\ShoppingCartDto.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Dtos\\ShoppingCartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:27:36.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OnlineShop.Application.csproj",
+              "DocumentMoniker": "D:\\Github\\OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\OnlineShop.Application.csproj",
+              "ToolTip": "D:\\Github\\OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj",
+              "RelativeToolTip": "OnlineShop.Application\\OnlineShop.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T11:23:33.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
